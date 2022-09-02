@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Hello Scala.iml" filepath="$PROJECT_DIR$/Hello Scala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PyWorkbook.iml" filepath="$PROJECT_DIR$/.idea/modules/PyWorkbook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PyWorkbook-build.iml" filepath="$PROJECT_DIR$/.idea/modules/PyWorkbook-build.iml" />
     </modules>
   </component>
 </project>

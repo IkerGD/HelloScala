@@ -1,7 +1,8 @@
-import scala.io.StdIn.{readInt, readFloat}
+import scala.io.StdIn.{readFloat, readInt}
 import scala.util.{Failure, Success, Try}
 
-class NumCheck() {
+
+class NumCheck {
 
   def intInp(): Int = {
     Try(readInt())
