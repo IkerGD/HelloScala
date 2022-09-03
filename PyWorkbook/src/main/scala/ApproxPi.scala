@@ -6,7 +6,7 @@ object ApproxPi {
     def approx(n: Int): Double = {
       var ap = 0.0
       for (i <- 1 to n) {
-        ap = ap + (pow(-1, 2 * i) / (2 * i + (2 * i + 1) + 2 * (i + 1)))
+        ap = ap + (pow(-1, i+1) / (8*i * (i+0.5) * (i+1)))
       }
       ap
     }

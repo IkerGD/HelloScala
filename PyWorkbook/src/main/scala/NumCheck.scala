@@ -42,6 +42,11 @@ class NumCheck {
     zPosInt(intInp())
   }
 
+  def nextPosIntCheck(): Int = {
+    println("Ingrese otro número entero positivo")
+    zPosInt(intInp())
+  }
+
   def posCheck(): Float = {
     println ("Ingrese un número positivo")
     zPos(floatInp())
