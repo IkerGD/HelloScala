@@ -4,16 +4,16 @@ object Prime {
     val n = nc.posIntCheck()
 
     def isPrime(n:Int):String = {
-      if (n==1) "no"
+      if (n==1) "no "
       else {
         for (i <- 2 until n-1) {
-          if (n % i == 0) return "no"
+          if (n % i == 0) return "no "
           else return ""
         }
         ""
       }
     }
 
-    println(f"$n${isPrime(n)} es primo")
+    println(f"$n ${isPrime(n)}es primo")
   }
 }

@@ -7,18 +7,18 @@ object Euclides {
 
     def bigg(n:Int, m:Int): (Int, Int) = {
       if (n > m) {
-        val r1 = n
-        val r2 = m
-        (r1, r2)
+        val b = n
+        val s = m
+        (b, s)
       }
       else {
-        val r1 = m
-        val r2 = n
-        (r1, r2)
+        val b = m
+        val s = n
+        (b, s)
       }
     }
 
-    def MCD(n:Int, m:Int): Int = {
+    def Euc(n:Int, m:Int): Int = {
       var r1 = bigg(n,m)._1
       var r2 = bigg(n, m)._2
       var r3 = 1
@@ -30,7 +30,7 @@ object Euclides {
       r1
     }
 
-    val mcd = MCD(n,m)
+    val mcd = Euc(n,m)
     println(f"EL máximo común divisor de $n y $m es $mcd")
 
   }
