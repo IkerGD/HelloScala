@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d5c78da-adc7-4669-95f7-8ba778b7332d" name="Changes" comment="Mediana y primo">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/DistCh.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Factors.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/LettFreq.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Lottery.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCD.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/TwoDice.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/WritNum.scala" afterDir="false" />
+    <list default="true" id="8d5c78da-adc7-4669-95f7-8ba778b7332d" name="Changes" comment="+9 ejercicios">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/LengthEnc.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/words_indexed.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/build.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Euclides.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Euclides.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Prime.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Prime.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +91,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662187781973</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="+9 ejercicios">
+      <created>1662266558177</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662266558177</updated>
+    </task>
+    <task id="LOCAL-00004" summary="+9 ejercicios">
+      <created>1662266603744</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662266603745</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,6 +122,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sbt add" />
     <MESSAGE value="Mediana y primo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mediana y primo" />
+    <MESSAGE value="+9 ejercicios" />
+    <option name="LAST_COMMIT_MESSAGE" value="+9 ejercicios" />
   </component>
 </project>
