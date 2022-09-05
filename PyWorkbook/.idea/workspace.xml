@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d5c78da-adc7-4669-95f7-8ba778b7332d" name="Changes" comment="+9 ejercicios">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/PyWorkbook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/PyWorkbook.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/LengthEnc.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/LengthEnc.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/LettFreq.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/LettFreq.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +100,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662266603745</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="+9 ejercicios">
+      <created>1662410401429</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662410401429</updated>
+    </task>
+    <task id="LOCAL-00006" summary="+9 ejercicios">
+      <created>1662410451090</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662410451090</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +131,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sbt add" />
     <MESSAGE value="Mediana y primo" />
+    <MESSAGE value="Run Length encoding" />
     <MESSAGE value="+9 ejercicios" />
     <option name="LAST_COMMIT_MESSAGE" value="+9 ejercicios" />
   </component>

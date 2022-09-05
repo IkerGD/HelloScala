@@ -5,10 +5,10 @@ object LettFreq {
   def main(args: Array[String]): Unit = {
 
     val alph=scala.collection.mutable.Map(
-      "A"->0.0,"B"->0.0,"C"->0.0,"D"->0.0,"E"->0.0,"F"->0.0,"G"->0.0,
-      "H"->0.0,"I"->0.0,"J"->0.0,"K"->0.0,"L"->0.0,"M"->0.0,"N"->0.0,
-      "O"->0.0,"P"->0.0,"Q"->0.0,"R"->0.0,"S"->0.0,"T"->0.0,
-      "U"->0.0,"V"->0.0,"W"->0.0,"X"->0.0,"Y"->0.0,"Z"->0.0
+      "A"->0.0f,"B"->0.0f,"C"->0.0f,"D"->0.0f,"E"->0.0f,"F"->0.0f,"G"->0.0f,
+      "H"->0.0f,"I"->0.0f,"J"->0.0f,"K"->0.0f,"L"->0.0f,"M"->0.0f,"N"->0.0f,
+      "O"->0.0f,"P"->0.0f,"Q"->0.0f,"R"->0.0f,"S"->0.0f,"T"->0.0f,
+      "U"->0.0f,"V"->0.0f,"W"->0.0f,"X"->0.0f,"Y"->0.0f,"Z"->0.0f
     )
 
 
@@ -17,25 +17,21 @@ object LettFreq {
       val lines = file.getLines.toList
       file.close
 
-      val word = new ListBuffer[String]
       for (line <- lines) {
-        for (c <-line.split("").toList) word += c
-        val lett=word.distinct
-        for (l <- alph.keys){
-          if (lett.contains(l)){
-            alph(l)=alph(l)+1
-          }
+        val word=line.toUpperCase.split("").toList.distinct
+        for (l <- word){
+          if (l!="-") alph(l)=alph(l)+1
         }
       }
 
       val n = lines.length
-      alph.map{case (k,v) => k -> 100 * v.toFloat/n }
 
-
-      println("Letter Freq")
-      for ((k,v) <- alph){
-        println(f"$k $v%2f")
+      println("De 200,000 palabras, el porcentaje de las mismas donde \n aparece al menos una vez cada letra es el siguiente:")
+      println("Letter \t Freq")
+      for ((k,v) <- alph.map{case (k,v) => k -> 100 * v/n }){
+        println(f"$k \t\t $v%.2f%%")
       }
+      println(f"Adicionalmente, la letra menos frecuente es: ${alph.minBy(_._2)._1}")
     }
 
     freq("C:\\Users\\CONSULTOR\\Documents\\Scala\\IntelliJ\\HelloScala\\words.txt")
