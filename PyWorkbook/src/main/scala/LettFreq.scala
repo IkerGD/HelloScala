@@ -19,7 +19,7 @@ object LettFreq {
 
       val word = new ListBuffer[String]
       for (line <- lines) {
-        for (c <-line.split("")) word += c
+        for (c <-line.split("").toList) word += c
         val lett=word.distinct
         for (l <- alph.keys){
           if (lett.contains(l)){
@@ -38,6 +38,6 @@ object LettFreq {
       }
     }
 
-    freq("/home/iker/Documents/Scala/HelloScala/words.txt")
+    freq("C:\\Users\\CONSULTOR\\Documents\\Scala\\IntelliJ\\HelloScala\\words.txt")
   }
 }

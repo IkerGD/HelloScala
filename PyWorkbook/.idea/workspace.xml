@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d5c78da-adc7-4669-95f7-8ba778b7332d" name="Changes" comment="+9 ejercicios">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/LengthEnc.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/words_indexed.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/PyWorkbook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/PyWorkbook.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/build.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/LengthEnc.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/LengthEnc.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/LettFreq.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/LettFreq.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +44,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/iker/Documents/Scala/HelloScala/PyWorkbook",
+    "last_opened_file_path": "C:/Users/CONSULTOR/Documents/Scala/IntelliJ/HelloScala/PyWorkbook",
     "project.structure.last.edited": "Global Libraries",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "Errors"
   }
